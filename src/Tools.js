@@ -31,7 +31,7 @@ export const Tools = () => {
         <div className='  w-[80rem]  my-[5rem] mx-[15rem]'>
             {
             dat.map((p)=>(
-                <button className='text-[#E2E2B6] h-[10rem] bg-black w-[10rem]  shadow-[#E2E2B6] gap-3 mx-12 my-5 hover:scale-110 shadow-lg   transition-transform duration-200'>{p.icon}</button>
+                <button className='text-[#E2E2B6] h-[10rem] bg-black w-[10rem]  shadow-[#8c60ad] gap-3 mx-12 my-5 hover:scale-110 shadow-lg   transition-transform duration-200'>{p.icon}</button>
             ))
         }
         </div>

@@ -53,7 +53,7 @@ import 'react-toastify/dist/ReactToastify.css'
 
   return (
     <div className='flex flex-row h-[30rem] w-[100%]'>
-        <h1 className='text-white absolute  text-[2.5rem] left-[40rem] font-serif '>Contact <span className='text-[#E2E2B6]'> Me</span></h1>
+        <h1 className='text-white absolute  text-[2.5rem] left-[40rem] font-serif '>Contact <span className='text-[#FAF0E6]'> Me</span></h1>
         <div className='w-[50%] my-[10rem]  h-[50rem]'>
             <img src={telephone} className='w-[25rem] h-[20rem] -my-[2rem] mx-16'></img>
             </div>
@@ -68,7 +68,7 @@ import 'react-toastify/dist/ReactToastify.css'
                 
 
             </div>
-            <button className="border-2 bg-[#E2E2B6] border-white text-[#021526] rounded font-semibold" >Send message</button>
+            <button className="border-2 bg-[#FAF0E6] border-white text-[#B9B4C7] rounded font-semibold" >Send message</button>
 
             </form>
         </div>
