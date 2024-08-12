@@ -4,17 +4,17 @@ import { FaGithub } from "react-icons/fa";
 import { MdOutlineAttachEmail } from "react-icons/md";
 import { GrLinkedin } from "react-icons/gr";
 import { FaInstagram } from "react-icons/fa6";
-import bhanu from "./photos/bhanu.jpg"
+import kartheek from "./photos/kartheek.jpg"
 //import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 
 export const Aboutme = () => {
   return (
     <div id="aboutme" className='flex flex-cols w-[100%] text-white h-[700px]'>
-        <div className='w-[30%] h-[400px] border-5 border-white'>
-            <img src={bhanu} className='rounded-[50%] absolute  top-[42em] left-[5rem] size-[400px]'></img>
+        <div className='w-[50%] h-[900px] border-6 border-white'>
+            <img src={kartheek} className='rounded-[15%] absolute  top-[39em] left-[10rem] size-[450px]'></img>
         </div>
-        <div className='w-[70%] h-[400px] my-[9rem] mx-[12rem] '>
+        <div className='w-[70%] h-[400px] my-[12cdrem] mx-[12rem] '>
             <h1 className="text-[3rem]  text-[#FEF3E2] px-[12rem]">More <span className=" text-[3rem] ">About Me</span></h1>
             <p className='text-white px-[12rem]'>
                <span>
@@ -24,9 +24,9 @@ I’m currently pursuing a BTech degree and have a strong passion for both sport
            
 
         </div>
-        <div className=' absolute -bottom-[40rem]  mx-[40%]'>
+        <div className=' absolute -bottom-[41rem]  mx-[45%]'>
             <header className='text-white text-[2rem]'>Contact Me Through</header>
-            <h1 className='mx-[5rem] gap-3'>24/7 <span className='text-[#B9B4C7]'>Available</span></h1>
+            <h1 className='mx-[5rem] gap-5'>24/7 <span className='text-[#B9B4C7]'>Available</span></h1>
            
             <div className='flex flex-cols  -mx-[1rem]  gap-5 py-7 size-[20rem]'> {
                 icons.map((d)=>( 
